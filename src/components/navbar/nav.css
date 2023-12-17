@@ -1,0 +1,13 @@
+.nav_img {
+    width: 105%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.nav-link {
+    color: white !important; /* Add !important to override any existing styles */
+}
+
+ion-icon{
+    font-size: 30px;
+}
