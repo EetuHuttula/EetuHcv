@@ -1,0 +1,16 @@
+React icons created by srip - Flaticon
+Sass icons created by Freepik - Flaticon
+Java icons created by Pixel perfect
+Css icons created by Pixel perfect
+Html icons created by Freepik
+<a href="https://www.flaticon.com/free-icons/mysql" title="mysql icons">Mysql icons created by Pixel perfect - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/postgresql" title="postgresql icons">Postgresql icons created by LAFS - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/php" title="php icons">Php icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/python" title="python icons">Python icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/bootstrap" title="bootstrap icons">Bootstrap icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/premiere-pro" title="premiere pro icons">Premiere pro icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/wordpress" title="wordpress icons">Wordpress icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/figma" title="figma icons">Figma icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/scrum" title="scrum icons">Scrum icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/azure" title="azure icons">Azure icons created by Freepik - Flaticon</a>
