@@ -30,13 +30,12 @@ export default function Skills() {
     <div className="container">
       <div className="row justify-content-center align-items-center">
         <div id="skills-container" className="col-md-10 right_section">
-       
           <div className="home-content-title text-center">
-            <h2 className="content-title">Here's some things I have experience in</h2>
+            <h2 className="content-title">Experience</h2>
           </div>
           <hr />
           {/**fronthed things */}
-          <div className="sub-title home-content-title text-center">
+          <div className="category home-content-title text-center">
             <h3>Frontend</h3>
           </div>
           <div className="skills-container row text-center">
@@ -62,7 +61,7 @@ export default function Skills() {
             </div>
           </div>
           {/**backed things */}
-          <div className="sub-title home-content-title text-center">
+          <div className="category home-content-title text-center">
             <h3>Backend</h3>
           </div>
           <div className="row skills-container text-center">
@@ -88,7 +87,7 @@ export default function Skills() {
             </div>
           </div>
           {/**other things */}
-          <div className="sub-title home-content-title text-center">
+          <div className="category home-content-title text-center">
             <h3>Other</h3>
           </div>
           <div className="row skills-container text-center">
@@ -133,5 +132,7 @@ export default function Skills() {
         </div>
       </div>
     </div>
+
+    
   )
 }
