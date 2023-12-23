@@ -17,8 +17,17 @@ export default function Home() {
             <hr className="hr-animation"/>
               <div className="col-md-12">
                 <p className="text_container">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad dolore alias quos officia cumque minus pariatur ex aut! Deleniti labore, officiis optio atque illum fugiat facilis commodi animi fuga officia!
-                  Cupiditate repudiandae tempora sapiente sequi laborum, dignissimos dolor culpa ad facere similique! Impedit alias atque nemo consequuntur iusto debitis eius delectus, fuga dolor cumque, odio doloremque dicta sunt animi sit.
+                Previously, I studied for 1.5 years in the
+                information technology program at Oulu University of
+                Applied Sciences. I have a particular interest in web
+                development, and I have gained experience through
+                various projects both within and outside of school.
+                In my free time, I enjoy playing the guitar, gaming, going
+                for walks, and spending evenings watching movies. <br />
+                <br />
+                I have always been quick to learn and adapt to new tasks. I work
+                efficiently both as part of a team and independently. I enjoy
+                challenging assignments that allow me to leverage my creativity.n
                 </p>
             </div>
           </div>

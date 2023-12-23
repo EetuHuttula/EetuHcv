@@ -22,39 +22,48 @@
 }
 
 .logos {
-    width: 35px;
-    margin-bottom: 10px;
-    opacity: 0.8; /* Set initial opacity to provide a subtle appearance */
-    transition: opacity 0.3s ease-out;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .logos:hover {
-    opacity: 1; /* Increase opacity on hover for a smooth fade-in effect */
-    transform: rotate(-5deg);
-    animation: shake 0.5s ease-in-out infinite;
-  }
-  
-  .hide-title {
-    margin-top: -20px;
-    opacity: 0;
-    transition: margin-top 0.5s ease-out, opacity 0.5s ease-out;
-  }
+  width: 35px;
+  margin-bottom: 10px;
+  opacity: 0.8; /* Set initial opacity to provide a subtle appearance */
+  transition: opacity 0.3s ease-out;
+  transition: transform 0.5s ease-in-out;
+}
+
+.logos:hover {
+  opacity: 1; /* Increase opacity on hover for a smooth fade-in effect */
+  transform: rotate(-5deg);
+  animation: shake 0.5s ease-in-out infinite;
+}
+
+.hide-title {
+  margin-top: -20px;
+  opacity: 0;
+  transition: margin-top 0.5s ease-out, opacity 0.5s ease-out;
+}
   
   /* Optional: Add a slight box shadow for a subtle lift effect */
-  .logos:hover + .hide-title {
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
-    opacity: 1;
+.logos:hover + .hide-title {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
+  opacity: 1;
+}
+
+@keyframes logos {
+  0%, 100% {
+    transform: translateX(0);
   }
-  
-  @keyframes logos {
-    0%, 100% {
-      transform: translateX(0);
-    }
-    25%, 75% {
-      transform: translateX(-5px);
-    }
-    50% {
-      transform: translateX(5px);
-    }
+  25%, 75% {
+    transform: translateX(-5px);
   }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+  .text_container {
+    padding-top: 16px;
+    word-spacing: 5px;
+    line-height: 30px;
+    margin-top: 25px;
+    text-align: justify;
+    color: rgb(30, 30, 30);
+}

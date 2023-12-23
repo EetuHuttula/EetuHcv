@@ -69,7 +69,21 @@ export default function Skills() {
           </div>
           <div className="text-container">
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad dolore alias quos officia cumque minus pariatur ex aut! Deleniti labore, officiis optio atque illum fugiat facilis commodi animi fuga officia! Cupiditate repudiandae tempora sapiente sequi laborum, dignissimos dolor culpa ad facere similique! Impedit alias atque nemo consequuntur iusto debitis eius delectus, fuga dolor cumque, odio doloremque dicta sunt animi sit.
+              I possess substantial expertise in both frontend and backend programming languages,
+              encompassing HTML, CSS, JavaScript, React, PHP, and Python—my preferred programming language.
+              My proficiency extends to leveraging database technologies, including MySQL, PostgreSQL, and Firebase,
+              to ensure robust data management in web applications. <br/>
+
+              I am particularly adept at working with React, Bootstrap, PostgreSQL, and Python,
+              as these technologies form the cornerstone of my academic pursuits and personal projects.
+              My current passion revolves around exploring the multifaceted capabilities of Python. <br/>
+
+              Additionally, I have a foundational understanding of Adobe Premiere and Photoshop. 
+              In 2023, I successfully executed a WooCommerce shop using WordPress and Azure Cloud.
+              Collaborative team projects in an academic setting involved employing design tools such as Figma,
+              followed by the implementation of Scrum methodologies to enhance project workflow and efficiency.
+
+
             </p>
           </div>
         </div>
