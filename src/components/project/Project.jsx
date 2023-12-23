@@ -64,11 +64,11 @@ export default function Project() {
     <div className="container">
       <div className="row justify-content-center align-items-center">
         <div className="home-content-title text-center">
-          <h2 className="content-title">Projects</h2>
+          <h1 className="content-title">Projects</h1>
         </div>
         <hr />
         {projects.map((project, index) => (
-          <div className="col-md-5" key={index}>
+          <div className="col-md-4" key={index}>
             <div className="box" onClick={() => handleShowModal(project)}>
               <h3>{project.name}</h3>
               <img src={project.image} alt={project.name} />
@@ -89,7 +89,6 @@ export default function Project() {
             </div>
           </div>
         ))}
-
         <Modal show={showModal} onHide={handleCloseModal}>
           <Modal.Header closeButton>
             <Modal.Title>{selectedProject && selectedProject.name}</Modal.Title>

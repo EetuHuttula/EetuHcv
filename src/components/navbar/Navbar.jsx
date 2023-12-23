@@ -9,12 +9,12 @@ import './nav.css';
 
 export default function Navbar() {
   return (
-    <div className="container-fluid">
+    <div  className="container-fluid">
       <div className="row flex-nowrap">
-        <div className="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+        <div id="nav-box" className="col-auto col-md-3 col-xl-2 px-sm-2 px-0" style={{ backgroundColor: "rgb(244, 236, 230)", width: "600px"}}>
           <div className="nav-container d-flex flex-column align-items-center px-3 pt-2 text-white min-vh-100">
-            <Link to="/" className="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-              <span className="fs-5 d-none d-sm-inline"><img className="nav_img" src={eetu} alt="eetulogo" /></span>
+            <Link to="/"  id="img-container" className="align-items-center pb-5 mb-md-5 me-md-auto" >
+             <img className="nav_img" src={eetu} alt="eetulogo" />
             </Link>
             <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-center " id="menu">
                 <li className="nav-item">
@@ -34,7 +34,7 @@ export default function Navbar() {
             </ul>
           </div>
         </div>
-          <div className="col py-3 d-flex flex-column align-items-center justify-content-center">
+          <div className="col py-3 d-flex flex-column align-items-center justify-content-center" style={{backgroundColor: "#fff", boxShadow: "rgba(0, 0, 0, 0.3) 0px 0px 10px 0px", fontFamily: 'Georgia, serif' }}>
           <Routes>
               <Route path="/" element={<Home /> } />
               <Route path="/Skills"  element={<Skills />} />

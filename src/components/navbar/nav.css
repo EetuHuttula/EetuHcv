@@ -1,11 +1,17 @@
+#img-container {
+    display:flex;
+    justify-content: center;
+
+}
 .nav_img {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 15px;
-    width: 105%;
+    width: 75%;
     height: auto;
     border-radius: 50%;
-    box-shadow: 1px 1px 1px 0px black;
-    filter:contrast(120%)
+    box-shadow: 1px 1px 1px #333;
+    filter:contrast(120%);
+    background-color: rgb(176,174,175);
 }
 ion-icon{
     font-size: 30px;
@@ -13,15 +19,15 @@ ion-icon{
 
 .logo-nav-link {
     padding: 14px;
-    color: #fff;
+    color: #333;
     
 }
 
 .nav-link {
-    color: white !important; /* Add !important to override any existing styles */
+    color: #333 !important; /* Add !important to override any existing styles */
     position: relative;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px !important;
 }
 
 .nav-link:hover {
@@ -36,7 +42,7 @@ ion-icon{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #333;
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
