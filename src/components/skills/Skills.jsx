@@ -79,7 +79,10 @@ export default function Skills() {
               My current passion revolves around exploring the multifaceted capabilities of Python. <br/>
 
               Additionally, I have a foundational understanding of Adobe Premiere and Photoshop. 
-              In 2023, I successfully executed a WooCommerce shop using WordPress and Azure Cloud.
+              In 2023, I successfully executed a WooCommerce shop using WordPress and Azure Cloud, unfortunately the client 
+              who comissioned the project chose to go in other direction. <br/>
+               This experience has further enriched my understanding
+              of client dynamics and the importance of effective communication throughout the development process. <br />
               Collaborative team projects in an academic setting involved employing design tools such as Figma,
               followed by the implementation of Scrum methodologies to enhance project workflow and efficiency.
 
