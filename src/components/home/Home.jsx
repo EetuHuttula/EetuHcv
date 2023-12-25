@@ -25,8 +25,7 @@ export default function Home() {
                 My academic trajectory underscores a capacity for swift learning and adaptability to diverse tasks. Whether collaborating within a team or working independently, I consistently deliver efficient results. I am drawn to challenging assignments that allow me to apply and showcase my creativity.
                 <br/>
                   <br/>
-                  Beyond my academic pursuits, I maintain a diverse range of interests. Outside of the professional sphere, I enjoy playing the guitar, gaming, taking walks, and spending evenings immersed in cinematic experiences. This combination of technical proficiency and a multifaceted personality positions me as a dynamic and well-rounded individual.
-                </p>
+                  Beyond my academic pursuits, I maintain a diverse range of interests. Outside of the professional sphere, I enjoy playing the guitar, gaming, taking walks, and spending evenings immersed in cinematic experiences.</p>
             </div>
           </div>
         </div>
