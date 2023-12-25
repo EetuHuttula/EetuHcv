@@ -17,3 +17,9 @@
     letter-spacing: 1px;
 
 }
+
+@media screen and (max-width: 600px) {
+    .text_container {
+        word-spacing: 0px !important;
+    }
+  }

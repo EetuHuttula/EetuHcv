@@ -52,27 +52,25 @@ export default function Skills() {
   return (
     <div className="container">
       <div className="row">
-        <div id="skills-container" className="justify-content-center align-items-center col-md-10 right_section">
           <div className="home-content-title text-center">
             <h1 className="content-title">Experience</h1>
           </div>
           <hr />
-          <div className="skills-container">
+          <div className="row justify-content-flex-start align-items-center">
             {skillsData
               .filter(skill => /* Condition for frontend skills */ true)
               .map((skill, index) => (
-                <div className="col-sm-3" key={index}>
-                  <img className="logos img-fluid" src={skill.logo} alt={skill.title} />
+                <div className="col-md-2" key={index}>
+                  <img className="logos img-fluid" src={skill.logo} alt={skill.title} /> <br />
                   <span className="hide-title">{skill.title}</span>
                 </div>
               ))}
-          </div>
-          <hr/>
+            </div>
           <div className="sub-title home-content-title text-center">
             <h3>What, where and when</h3>
           </div>
-          <div className="text-container">
-            <p className="chapter-start">
+          <div className="">
+            <p className="text-container">
               I possess substantial expertise in both frontend and backend programming languages, including HTML, CSS, JavaScript, React, PHP, and Python <span style={redHeartStyle}>&#x2764;</span> <br />
               My proficiency extends to leveraging database technologies, such as MySQL, PostgreSQL, and Firebase, ensuring robust data management in web applications. 
 
@@ -88,7 +86,7 @@ export default function Skills() {
             </p>
 
           </div>
-        </div>
+      
       </div>
     </div>
   );

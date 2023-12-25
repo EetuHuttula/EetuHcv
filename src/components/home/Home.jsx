@@ -7,14 +7,14 @@ export default function Home() {
     <div className="row">
    
         <div className="row justify-content-center align-items-center">
-          <div className="about_section col-md-10">
+          <div className="about_section col-md-10 right_section">
             <div className="home-content-title text-center">
               <h1 className="content-title">Hello there, I'm Eetu</h1>
             </div>
             <div className="home-content-text text-center">
               <h4 className="content-title">Computer science student at university of Helsinki</h4>
             </div>
-            <hr className="hr-animation"/>
+            <hr/>
               <div className="col-md-12">
                 <p className="text_container">
                 I have a solid foundation in Information Technology, with 1.5 years of dedicated study at Oulu University of Applied Sciences. My primary focus is on web development, and I've refined my skills through various projects within both academic and extracurricular contexts.
