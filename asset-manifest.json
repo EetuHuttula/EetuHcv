@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EetuHcv/static/css/main.7f01a1a5.css",
-    "main.js": "/EetuHcv/static/js/main.c71c87a6.js",
+    "main.css": "/EetuHcv/static/css/main.662ddc2c.css",
+    "main.js": "/EetuHcv/static/js/main.e28c9098.js",
     "static/js/787.4f57ac2b.chunk.js": "/EetuHcv/static/js/787.4f57ac2b.chunk.js",
     "static/media/shoelando.PNG": "/EetuHcv/static/media/shoelando.48720b5a14ef8049f848.PNG",
     "static/media/sluuppishopetusivu.png": "/EetuHcv/static/media/sluuppishopetusivu.e471bc54e5ac84b1e013.png",
@@ -26,12 +26,12 @@
     "static/media/postgresql.png": "/EetuHcv/static/media/postgresql.d46df52cc754d81bc598.png",
     "static/media/premiere.png": "/EetuHcv/static/media/premiere.19f116f90f8973a256b5.png",
     "index.html": "/EetuHcv/index.html",
-    "main.7f01a1a5.css.map": "/EetuHcv/static/css/main.7f01a1a5.css.map",
-    "main.c71c87a6.js.map": "/EetuHcv/static/js/main.c71c87a6.js.map",
+    "main.662ddc2c.css.map": "/EetuHcv/static/css/main.662ddc2c.css.map",
+    "main.e28c9098.js.map": "/EetuHcv/static/js/main.e28c9098.js.map",
     "787.4f57ac2b.chunk.js.map": "/EetuHcv/static/js/787.4f57ac2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f01a1a5.css",
-    "static/js/main.c71c87a6.js"
+    "static/css/main.662ddc2c.css",
+    "static/js/main.e28c9098.js"
   ]
 }
