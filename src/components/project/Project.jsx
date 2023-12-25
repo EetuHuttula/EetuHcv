@@ -28,9 +28,9 @@ export default function Project() {
       github: 'https://github.com/EetuHuttula/Verkkopalveluprojekti',
       youtube: 'https://youtu.be/KjEk1fqiccI',    },
     {
-      name: 'Time management app',
+      name: 'Time management',
       image: tmapp,
-      description: 'App for work time management',
+      description: 'work time management app',
       github: 'https://github.com/EetuHuttula/TimeManagementApp',
       youtube: 'https://youtu.be/aaZ5n4LhWE8',
     },
@@ -98,6 +98,14 @@ export default function Project() {
               <>
                 <img src={selectedProject.image} alt={selectedProject.name} style={{ width: '100%' }} />
                 <p>{selectedProject.description}</p>
+                 
+              <a href={selectedProject.github} className="shake" target="_blank" rel="noopener noreferrer">
+                <i className="ion-logo-github"  style={{ fontSize: '24px', color: '#333'}}><ion-icon name="logo-github"></ion-icon></i>
+              </a>
+          
+              <a href={selectedProject.youtube} className="shake" target="_blank" rel="noopener noreferrer">
+                <i className="ion-logo-youtube"  style={{ fontSize: '24px', color: '#333' }}><ion-icon name="logo-youtube"></ion-icon></i>
+              </a>
               </>
             )}
           </Modal.Body>

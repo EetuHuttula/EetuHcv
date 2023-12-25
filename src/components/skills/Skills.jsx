@@ -46,48 +46,47 @@ const skillsData = [
 ];
 
 export default function Skills() {
+  const redHeartStyle = {
+    color: 'red',
+  };
   return (
     <div className="container">
-      <div className="row justify-content-center align-items-center">
-        <div id="skills-container" className="col-md-10 right_section">
+      <div className="row">
+        <div id="skills-container" className="justify-content-center align-items-center col-md-10 right_section">
           <div className="home-content-title text-center">
             <h1 className="content-title">Experience</h1>
           </div>
           <hr />
-          <div className="skills-container row text-center">
+          <div className="skills-container">
             {skillsData
               .filter(skill => /* Condition for frontend skills */ true)
               .map((skill, index) => (
                 <div className="col-sm-3" key={index}>
-                  <img className="logos" src={skill.logo} alt={skill.title} />
+                  <img className="logos img-fluid" src={skill.logo} alt={skill.title} />
                   <span className="hide-title">{skill.title}</span>
                 </div>
               ))}
           </div>
+          <hr/>
           <div className="sub-title home-content-title text-center">
             <h3>What, where and when</h3>
           </div>
           <div className="text-container">
-            <p>
-              I possess substantial expertise in both frontend and backend programming languages,
-              encompassing HTML, CSS, JavaScript, React, PHP, and Python—my preferred programming language.
-              My proficiency extends to leveraging database technologies, including MySQL, PostgreSQL, and Firebase,
-              to ensure robust data management in web applications. <br/>
+            <p className="chapter-start">
+              I possess substantial expertise in both frontend and backend programming languages, including HTML, CSS, JavaScript, React, PHP, and Python <span style={redHeartStyle}>&#x2764;</span> <br />
+              My proficiency extends to leveraging database technologies, such as MySQL, PostgreSQL, and Firebase, ensuring robust data management in web applications. 
 
-              I am particularly adept at working with React, Bootstrap, PostgreSQL, and Python,
-              as these technologies form the cornerstone of my academic pursuits and personal projects.
-              My current passion revolves around exploring the multifaceted capabilities of Python. <br/>
-
-              Additionally, I have a foundational understanding of Adobe Premiere and Photoshop. 
-              In 2023, I successfully executed a WooCommerce shop using WordPress and Azure Cloud, unfortunately the client 
-              who comissioned the project chose to go in other direction. <br/>
-               This experience has further enriched my understanding
-              of client dynamics and the importance of effective communication throughout the development process. <br />
-              Collaborative team projects in an academic setting involved employing design tools such as Figma,
-              followed by the implementation of Scrum methodologies to enhance project workflow and efficiency.
-
-
+              I am particularly adept at working with React, Bootstrap, PostgreSQL, and Python, as these technologies are foundational to my academic pursuits and personal projects. <br />
+              Currently, my passion revolves around exploring the multifaceted capabilities of Python. 
+                            <br/> <br/>
+              Additionally, I have a foundational understanding of Adobe Premiere and Photoshop. In 2023, 
+              I have effectively implemented a WooCommerce shop utilizing WordPress and Azure Cloud. Regrettably, the client who initiated the project has opted for an alternative direction, primarily due to a lack of familiarity with deploying and hosting applications of this nature.
+              <br />
+              This experience has further enriched my understanding of client dynamics and highlighted the importance of effective communication throughout the development process.  <br />
+              <br />
+              Collaborative team projects in an academic setting involved employing design tools such as Figma, followed by the implementation of Scrum methodologies to enhance project workflow and efficiency.
             </p>
+
           </div>
         </div>
       </div>

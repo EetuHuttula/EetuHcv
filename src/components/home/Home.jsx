@@ -7,7 +7,7 @@ export default function Home() {
     <div className="row">
    
         <div className="row justify-content-center align-items-center">
-          <div className="about_section col-md-10 right_section">
+          <div className="about_section col-md-10">
             <div className="home-content-title text-center">
               <h1 className="content-title">Hello there, I'm Eetu</h1>
             </div>
@@ -17,17 +17,15 @@ export default function Home() {
             <hr className="hr-animation"/>
               <div className="col-md-12">
                 <p className="text_container">
-                Previously, I studied for 1.5 years in the
-                information technology program at Oulu University of
-                Applied Sciences. I have a particular interest in web
-                development, and I have gained experience through
-                various projects both within and outside of school.
-                In my free time, I enjoy playing the guitar, gaming, going
-                for walks, and spending evenings watching movies. <br />
-                <br />
-                I have always been quick to learn and adapt to new tasks. I work
-                efficiently both as part of a team and independently. I enjoy
-                challenging assignments that allow me to leverage my creativity.n
+                I have a solid foundation in Information Technology, with 1.5 years of dedicated study at Oulu University of Applied Sciences. My primary focus is on web development, and I've refined my skills through various projects within both academic and extracurricular contexts.
+
+                Notably, I undertook a transfer to the esteemed University of Helsinki, where I continued my academic journey. This transition reflects my commitment to academic excellence and my pursuit of a comprehensive education.
+                <br/>
+                 <br/>
+                My academic trajectory underscores a capacity for swift learning and adaptability to diverse tasks. Whether collaborating within a team or working independently, I consistently deliver efficient results. I am drawn to challenging assignments that allow me to apply and showcase my creativity.
+                <br/>
+                  <br/>
+                  Beyond my academic pursuits, I maintain a diverse range of interests. Outside of the professional sphere, I enjoy playing the guitar, gaming, taking walks, and spending evenings immersed in cinematic experiences. This combination of technical proficiency and a multifaceted personality positions me as a dynamic and well-rounded individual.
                 </p>
             </div>
           </div>
