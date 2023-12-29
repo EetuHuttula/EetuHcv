@@ -18,19 +18,22 @@ export default function Project() {
       name: 'Porinanurkka',
       image: porinanurkka,
       description: 'Chatting page',
+      techologies: 'Python(Flask), HTML, CSS, Postgresql',
       github: 'https://github.com/EetuHuttula/TKT20019---Keskustelusovellus',
       youtube: 'https://youtu.be/sYQSgE0kPZk',
     },
     {
       name: 'Shoelando',
       image: shoelando,
-      description: 'Web store for shoes',
+      description: 'Web store for shoes.',
+      techologies: 'React, Php, Mysql',
       github: 'https://github.com/EetuHuttula/Verkkopalveluprojekti',
       youtube: 'https://youtu.be/KjEk1fqiccI',    },
     {
       name: 'Time management',
       image: tmapp,
       description: 'work time management app',
+      techologies: 'React, Firebase',
       github: 'https://github.com/EetuHuttula/TimeManagementApp',
       youtube: 'https://youtu.be/aaZ5n4LhWE8',
     },
@@ -38,6 +41,7 @@ export default function Project() {
       name: 'KidsLearn',
       image: kidslearn,
       description: 'Learning page for kids',
+      techologies: 'HTML, CSS, Javascript',
       github: 'https://github.com/EetuHuttula/WebProjekti',
       youtube: 'https://youtu.be/luXp5meVrg8',
     },
@@ -45,6 +49,7 @@ export default function Project() {
       name: 'SluuppiShop',
       image: sluup,
       description: 'Shop for OSAKO',
+      techologies: 'Wordpress Woocommerce, Microsoft Azure Cloud',
       github: '404',
       youtube: '404',
     },
@@ -73,6 +78,7 @@ export default function Project() {
               <h3>{project.name}</h3>
               <img src={project.image} alt={project.name} />
               <p>{project.description}</p>
+              <p className='proj-technologies'>{project.techologies}</p>
               <a href={project.link} className="shake">
               <i className="ion-logo-github"  style={{ fontSize: '24px', color: '#333'}}><ion-icon name="open-outline"></ion-icon></i>
               </a>
