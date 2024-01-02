@@ -1,13 +1,8 @@
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* Create 6 equal columns */
+  grid-template-columns: repeat(5, 1fr); /* Create 6 equal columns */
   gap: 16px; /* Adjust the gap between items as needed */
   text-align: center; 
-}
-
-.skills-container .col {
-  text-align: center;
-  justify-content: center;
 }
 
 .sub-title {
@@ -15,18 +10,21 @@
     padding-bottom: 10px;
 }
 
-#skills-container {
-    justify-content: center;
-    margin-top: 20px;
-    letter-spacing: 2px;
+.image-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .logos {
-  width: 35px;
+  width: 45px;
   margin-bottom: 10px;
   opacity: 0.8; /* Set initial opacity to provide a subtle appearance */
   transition: opacity 0.3s ease-out;
   transition: transform 0.5s ease-in-out;
+  padding-left: 10px;
 }
 
 .logos:hover {

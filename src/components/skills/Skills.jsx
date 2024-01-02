@@ -52,7 +52,7 @@ export default function Skills() {
   return (
     <div className="container">
       <div className="row">
-        <div id="skills-container" className="justify-content-center align-items-center col-md-10 right_section">
+        <div id="skills-container" className="justify-content-center align-items-center col-md-12 right_section">
           <div className="home-content-title text-center">
             <h1 className="content-title">Experience</h1>
           </div>
@@ -61,7 +61,7 @@ export default function Skills() {
             {skillsData
               .filter(skill => /* Condition for frontend skills */ true)
               .map((skill, index) => (
-                <div className="col-sm-4" key={index}>
+                <div className="image-container col-md-12" key={index}>
                   <img className="logos img-fluid" src={skill.logo} alt={skill.title} />
                   <span className="hide-title">{skill.title}</span>
                 </div>
