@@ -14,13 +14,13 @@ export default function Navbar() {
           {/* Sidebar */}
           <div className="col-md-3 col-xl-2 px-sm-2 px-0 sidebar" style={{ backgroundColor: "rgb(244, 236, 230)" }}>
             <div id="nav-container" className="nav-container d-flex flex-column align-items-center px-3 pt-2 text-white min-vh-100">
-              <Link to="/" id="img-container" className="align-items-center pb-3 mb-md-3 me-md-auto">
+              <Link to="/Home" id="img-container" className="align-items-center pb-3 mb-md-3 me-md-auto">
                 {/* Assuming 'eetu' is an image URL */}
                 <img className="nav_img" src={eetu} alt="eetulogo" />
               </Link>
               <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-center " id="menu">
                 <li className="nav-item">
-                  <Link to="/" className="nav-link align-middle px-0">
+                  <Link to="/Home" className="nav-link align-middle px-0">
                     <i className="fs-4 bi-house"></i> <span className="ms-1 d-sm-inline">About</span>
                   </Link>
                   <Link to="/Skills" className="nav-link px-0 align-middle">
@@ -45,7 +45,7 @@ export default function Navbar() {
           {/* Main Content */}
           <div className="col-md-9 col-xl-10 py-3 d-flex flex-column align-items-center justify-content-center content" style={{ backgroundColor: "#fff", boxShadow: "rgba(0, 0, 0, 0.3) 0px 0px 10px 0px", fontFamily: 'Georgia, serif' }}>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="*" element={<Home />} />
               <Route path="/Skills" element={<Skills />} />
               <Route path="/Project" element={<Project />} />
             </Routes>
